@@ -110,7 +110,7 @@ const Loan = (props: LoanProps) => {
               className={`font-semibold text-lg
               ${mode === "light" ? "text-slate-700" : "text-white"}`}
             >
-              Aucune opération disponible
+              Aucune(s) opération(s) disponible(s)
             </div>
           </div>
         )}

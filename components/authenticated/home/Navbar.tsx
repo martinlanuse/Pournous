@@ -67,7 +67,7 @@ const Navbar = () => {
         className={`cursor-pointer text-base sm:text-lg 
          select-none font-semibold`}
       >
-        Investissement
+        Investissement(s)
       </div>
 
       {company?.loan.status === "on" && (
@@ -81,7 +81,7 @@ const Navbar = () => {
           className={`cursor-pointer text-base sm:text-lg 
          select-none font-semibold`}
         >
-          Prêt
+          Prêt(s)
         </div>
       )}
     </div>

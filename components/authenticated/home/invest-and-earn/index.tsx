@@ -122,7 +122,7 @@ const Save = (props: SaveProps) => {
                 className={`font-semibold text-lg
               ${mode === "light" ? "text-slate-700" : "text-white"}`}
               >
-               Aucun investissement en cours
+               Aucun(s) investissement(s) en cours
               </div>
               <Button
                 small
