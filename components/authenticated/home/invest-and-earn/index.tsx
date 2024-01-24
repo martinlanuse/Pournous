@@ -128,7 +128,7 @@ const Save = (props: SaveProps) => {
                 small
                 outline
                 onClick={() => router.push("/home/invest-and-earn/create")}
-                label={"Démarrer un nouvel investissementt"}
+                label={"Démarrer un nouvel investissement"}
               />
             </div>
           </div>
