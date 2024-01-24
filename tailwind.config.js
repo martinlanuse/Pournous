@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-bg-gradient": "url('/gradient-3.jpeg')",
+        "hero-bg-gradient": "url('/fonddecran.jpg')",
         "spend-dark": "url('/spend-dark.png')",
       },
     },
