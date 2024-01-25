@@ -46,8 +46,7 @@ const ForgotPassword = () => {
         <ThemeToggle />
 
         <div
-          className={`font-bold text-2xl md:text-3xl 
-        ${mode === "light" ? "text-slate-700" : "text-white"}`}
+          
         >
           Forgot Password?
         </div>

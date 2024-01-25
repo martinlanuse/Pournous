@@ -105,8 +105,7 @@ const Register = (props: RegisterProps) => {
           <Logo />
           <ThemeToggle />
           <div
-            className={`font-bold text-2xl md:text-3xl 
-        ${mode === "light" ? "text-slate-700" : "text-white"}`}
+            
           >
            Créer un nouveau compte
           </div>

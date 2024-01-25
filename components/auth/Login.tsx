@@ -48,8 +48,7 @@ const Login = () => {
         <ThemeToggle />
 
         <div
-          className={`font-bold text-2xl md:text-3xl 
-        ${mode === "light" ? "text-slate-700" : "text-white"}`}
+          
         >
          Se connecter 
         </div>
@@ -108,8 +107,7 @@ const Login = () => {
         </div>
 
         <div
-          className={`font-semibold 
-        ${mode === "light" ? "text-gray-500" : "text-white"}`}
+        
         >
         
           Vous n&apos;avez pas de compte ? Créez-en un.

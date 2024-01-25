@@ -66,8 +66,7 @@ const NewPassword = () => {
 
       <div className="flex flex-col w-full items-center gap-3">
         <div
-          className={`font-bold text-2xl md:text-3xl 
-        ${mode === "light" ? "text-slate-700" : "text-white"}`}
+          
         >
           Set new password
         </div>

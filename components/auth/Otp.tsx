@@ -189,8 +189,7 @@ const Otp = () => {
       <ThemeToggle />
       <div className="flex flex-col items-center gap-3 w-full">
         <div
-          className={`font-bold text-2xl md:text-3xl 
-        ${mode === "light" ? "text-slate-700" : "text-white"}`}
+          
         >
           Password reset
         </div>
