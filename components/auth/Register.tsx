@@ -103,7 +103,7 @@ const Register = (props: RegisterProps) => {
       <Container>
         <div className="flex flex-col gap-2.5 w-full items-center">
           <Logo />
-          <ThemeToggle />
+          
           <div
             
           >
