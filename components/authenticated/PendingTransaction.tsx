@@ -61,7 +61,7 @@ const PendingTransaction = (props: PendingTransactionProp) => {
           className={`font-bold flex flex-col items-end
         ${mode === "light" ? "text-slate-700" : "text-white"}`}
         >
-          <div>${formatNumber(amount)}</div>
+          <div>€{formatNumber(amount)}</div>
           <div className="font-normal text-sm text-yellow-400">{status}</div>
         </div>
       </div>

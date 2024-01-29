@@ -65,7 +65,7 @@ const WalletCard = (props: WalletCardProps) => {
           className={`font-bold flex flex-col items-end
         ${mode === "light" ? "text-slate-700" : "text-white"}`}
         >
-          <div>${formatNumber(amount)}</div>
+          <div>€{formatNumber(amount)}</div>
         </div>
       </div>
     </div>
