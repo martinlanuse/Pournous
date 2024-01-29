@@ -57,7 +57,7 @@ const Card = () => {
         flex justify-center
       ${mode === "light" ? "text-slate-700" : "text-white"}`}
         >
-         Carte WIREX
+         Carte LBPAM
         </div>
 
         <div className={`flex flex-wrap items-center justify-center gap-2`}>
