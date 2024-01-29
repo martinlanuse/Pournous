@@ -8,7 +8,7 @@ import axios from "axios";
 import Image from "next/image";
 import React, { useState } from "react";
 import { toast } from "react-hot-toast";
-import { AiOutlineDollar } from "react-icons/ai";
+import { FaEuroSign } from "react-icons/fa";
 import { IoIosPerson } from "react-icons/io";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
@@ -75,7 +75,7 @@ const SendMoneyPaywanderModal = (props: TopUpModalProps) => {
             setInput({ ...input, amount: e.target.value });
           }}
           placeholder="Enter amount to send"
-          icon={AiOutlineDollar}
+          icon={FaEuroSign}
         />
 
         <TextInput

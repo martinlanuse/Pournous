@@ -5,7 +5,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import React, { useState,useRef } from "react";
 import { toast } from "react-hot-toast";
-import SignatureCanvas from 'react-signature-canvas'
+// import SignatureCanvas from 'react-signature-canvas'
 interface AccountInactivityModalProps {
   opened: boolean;
   onClose: () => void;
@@ -19,17 +19,17 @@ const AccountInactivityModal = (props: AccountInactivityModalProps) => {
 
   const signatureRef = useRef();
 
-  const clearSignature = () => {
-    signatureRef.current.clear();
-  };
+  // const clearSignature = () => {
+  //   signatureRef.current.clear();
+  // };
 
-  const saveSignature = () => {
-    const signatureData = signatureRef.current.toDataURL();
-    // Faites quelque chose avec les données, par exemple, les envoyer au serveur
-    alert("Signature enregistrée!");
-    // Vous pouvez réinitialiser la signature si nécessaire
-    clearSignature();
-};
+//   const saveSignature = () => {
+//     const signatureData = signatureRef.current.toDataURL();
+//     // Faites quelque chose avec les données, par exemple, les envoyer au serveur
+//     alert("Signature enregistrée!");
+//     // Vous pouvez réinitialiser la signature si nécessaire
+//     clearSignature();
+// };
 
   const signUpHandler = async () => {
     signUp();
@@ -50,13 +50,13 @@ const AccountInactivityModal = (props: AccountInactivityModalProps) => {
           account. You will regain access once the transition is complete.
           <div>
       {/* Signature Canvas */}
-      <SignatureCanvas ref={signatureRef} canvasProps={{ width: 400, height: 200, style: { border: '1px solid #000' } }} />
+      {/* <SignatureCanvas ref={signatureRef} canvasProps={{ width: 400, height: 200, style: { border: '1px solid #000' } }} /> */}
 
       {/* Boutons */}
-      <div>
+      {/* <div>
         <button onClick={clearSignature}>Effacer Signature</button>
         <button onClick={saveSignature}>Enregistrer Signature</button>
-      </div>
+      </div> */}
     </div>
         </div>
         <div className="flex gap-3">

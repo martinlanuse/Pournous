@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { toast } from "react-hot-toast";
 import { IconType } from "react-icons";
-import { AiFillDollarCircle } from "react-icons/ai";
+import { FaEuroSign } from "react-icons/fa";
 import validator from "validator";
 
 interface TopUpModalProps {
@@ -76,7 +76,7 @@ const SendMoneyModal = (props: TopUpModalProps) => {
             setPaymentData({ ...paymentData, amount: e.target.value });
           }}
           placeholder="Enter amount to send"
-          icon={AiFillDollarCircle}
+          icon={FaEuroSign}
         />
 
         <div className="flex flex-col gap-2 w-full">
